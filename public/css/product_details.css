@@ -1,0 +1,200 @@
+section div.details{
+    height:460px;
+}
+section div.details div.left div.top>img{
+    width:354px;
+    margin:5px 0;
+}
+section div.details div.left div.bottom{
+    width:354px;
+    margin-top:15px;
+    overflow:hidden;
+}
+section div.details div.left div.bottom ul{
+    margin-left:10px;
+}
+section div.details div.left div.bottom div.lf,section div.details div.left div.bottom div.rf{
+    margin-top:20px;
+}
+section div.details div.left div.bottom ul li{
+    float:left;
+    margin-right:5px;
+}
+section div.details div.left div.bottom ul li a img{
+    width:70px;
+}
+section div.details div.right div.detail h3{
+    color:#333;
+}
+section div.details div.right div.detail h4{
+    color:#565555;
+}
+section div.details div.right div.detail div.card{
+    padding:15px;
+    background:#dddddd;
+    border:1px solid #f0f0f0;
+    border-radius:5px;
+    text-align:left;
+    margin:15px 0;
+}
+section div.details div.right div.detail div.card .price{
+    color:#e60b45;
+}
+section div.details div.right div.detail div.card p{
+    color:#333;
+}
+section div.details div.right div.detail p.help{
+    font-size:20px;
+    color:#333;
+    margin-top:15px;
+    position:relative;
+}
+section div.details div.right div.detail p.help span{
+    margin-left:10px;
+}
+section div.details div.right div.detail p.help img{
+    position:absolute;
+    top:-3px;
+}
+section div.details div.right div.detail .selectColor{
+    margin:10px 0;
+}
+section div.details div.right div.detail .selectColor div,section div.details div.right div.detail .selectSize div{
+    width:500px;
+    margin-right:210px;
+}
+section div.details div.right div.detail .selectColor p,section div.details div.right div.detail .selectSize p{
+    font-size:18px;
+    color:#333;
+    margin-top:10px;
+}
+section div.details div.right div.detail .selectColor a,section div.details div.right div.detail .selectSize a{
+    display:inline-block;
+    font-size:18px;
+    color:#333;
+    padding:5px;
+    border:1px solid #dddddd;
+    margin-right:10px;
+    margin-top:10px;
+}
+section div.details div.right div.detail div.cart{
+    margin-top:45px;
+}
+section div.details div.right div.detail div.cart div button{
+    width:50px;
+    height:50px;
+    font-size:18px;
+}
+section div.details div.right div.detail div.cart div{
+    margin-left:50px;
+}
+section div.details div.right div.detail div.cart div input{
+    width:50px;
+    height:50px;
+    font-size:18px;
+}
+section div.details div.right div.detail div.cart a{
+    font-size:18px;
+    background:#f00;
+    display:inline-block;
+    width:200px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    color:#fff;
+    margin-right:350px;
+}
+section div.details div.right div.detail div.cart a img{
+    position:relative;
+    top:10px;
+}
+div.sever h2{
+    color:#923d11;
+    margin:15px 0;
+    background:#e5e3e0;
+    padding:15px 5px;
+}
+div.sever h3{
+    color:#333;
+    font-size:18px;
+}
+div.sever p{
+    margin:15px 0;
+    color:#333;
+    font-size:20px;
+}
+section div.suggest{
+    margin-top:15px;
+}
+section div.suggest .content{
+    border:1px solid #dddddd;
+    overflow:hidden;
+    margin-top:15px;
+}
+section div.suggest>h2{
+    color:#923d11;
+    background:#e5e3e0;
+    padding:15px 5px;
+}
+section div.suggest .content ul{
+    width:200%;
+    margin-top:15px;
+}
+section div.suggest .content ul li{
+    float:left;
+    margin:15px;
+    text-align:center;
+    color:#333;
+}
+section div.suggest .content ul li p{
+    margin:15px 0;
+    font-weight:bold;
+}
+section div.intro div.top{
+    background:#e5e3e0;
+}
+section div.intro div.top ul li{
+    float:left;
+    margin-right:38px;
+    width:130px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+}
+section div.intro{
+    margin-top:25px;
+}
+section div.intro div.top ul li:last-child{
+    margin-left:200px;
+}
+section div.intro div.top ul li a{
+    color:#333;
+    font-size:20px;
+    text-align:center;
+}
+section div.intro div.center{
+    color:#333;
+    margin:15px 0;
+}
+section div.intro div.center a{
+    color:#2950ea;
+}
+section div.intro div.center ul{
+    width:200px;
+    float:left;
+    text-align:justify;
+    margin:15px 100px 15px 0px;
+}
+section div.intro div.center ul li{
+    padding:5px 5px 5px 0;
+}
+section div.intro div.bottom{
+     text-align:right;
+}
+section div.intro div.bottom a{
+    color:#333;
+}
+
+
+
+

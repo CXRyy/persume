@@ -1,0 +1,85 @@
+body{
+    background:#fff;
+}
+header{
+    margin-top:15px;
+}
+header div.content{
+    margin-top:50px;
+}
+header div.top div.left span{
+    font-size:15px;
+    color:#555;
+}
+header div.top div.left a{
+    font-size:18px;
+    color:#333;
+    margin:0 5px;
+}
+a{
+    color:#333;
+}
+ul li{
+    float:left;
+    margin-left:10px;
+}
+header div.top div.right ul li a{
+    font-size:15px;
+}
+header div.content div.center div.top a{
+    color:#f00;
+    padding:5px;
+    font-size:18px;
+}
+header div.content div.center{
+    margin-left:125px;
+}
+header div.content div.center div.top a.active{
+    background: #db2c2c;
+    color: #fff;
+}
+header div.content div.center div.search input{
+    width:500px;
+    height:40px;
+    margin:10px 0;
+    font-size:18px;
+}
+header div.content div.center div.search a{
+    display:inline-block;
+    text-align:center;
+    width:84px;
+    height:41px;
+    background:#f00;
+    color:#fff;
+    line-height:41px;
+    margin-top:10px;
+    margin-left:-5px;
+}
+header div.content div.center .nav ul{
+    margin-left:-10px;
+}
+
+header div.content div.center .nav ul li{
+    font-size:16px;
+    margin-right:3px;
+}
+header div.content div.right a{
+    display:inline-block;
+    width:200px;
+    height:45px;
+    line-height:45px;
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    background:#f00;
+    margin-top:35px;
+    border:1px solid #d8d8d3;
+}
+header div.content div.right a img{
+    position:relative;
+    top:10px;
+}
+header div.content div.right span.big{
+    margin-left:5px;
+}
+

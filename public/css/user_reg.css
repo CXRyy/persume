@@ -1,0 +1,123 @@
+body{
+    background:url("../image/timg.jpg") no-repeat;
+    background-size:cover;
+}
+header{
+    height:150px;
+    border-bottom:1px solid #dde;
+}
+header div,section,footer{
+    width:1000px;
+    margin:0 auto;
+}
+header img{
+    width:300px;
+    padding-top:5px;
+    vertical-align:middle;
+}
+header span.welcom{
+    margin-left:10px;
+    font-size:30px;
+    color:#333;
+}
+header span.tologin{
+    float:right;
+    margin-top:55px;
+    font-size:20px;
+    color:#666;
+}
+header span a{
+    font-size:20px;
+    font-weight:bold;
+    color:#333;
+}
+section div.register{
+    width:600px;
+    height:650px;
+    margin:100px auto 150px;
+    background-color:#cec6c5;
+    position:relative;
+}
+section div.content{
+    position:absolute;
+    left:65px;
+    top:25px;
+}
+section div.input{
+    font-size:20px;
+    color:#666;
+    width:400px;
+    height:50px;
+    margin:5px 25px;
+    position:relative;
+    border: 2px solid #a09c9c;
+    background:#f1f2ee;
+}
+section div.input label{
+    margin-left:10px;
+    line-height:40px;
+}
+section .input div{
+    font-size:10px;
+    color:#666;
+}
+section .input input{
+    width:250px;
+    height:40px;
+    margin-left:10px;
+    padding-left:5px;
+    color: #495057;
+    background:#f1f2ee;
+    border:none;
+    font-size:18px;
+}
+section .input .reg_code{
+    width:80px;
+    position:absolute;
+    right:30px;
+    top:5px;
+}
+#showUname,#showPwd,#showUpwd,#showEmail,#showPhone,#showRegCode{
+    width:300px;
+    height:25px;
+    line-height:25px;
+    margin:5px 25px;
+    color:#7f7979;
+}
+
+section .btn{
+    width:350px;
+    height:40px;
+    background-color:#f00;
+    border-radius:5px;
+    color:#fff;
+    border:none;
+    line-height:40px;
+    font-size:18px;
+    margin-top:30px;
+    margin-left:45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
