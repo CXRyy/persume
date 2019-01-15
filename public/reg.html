@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="./css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/reg.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="content">
+				<div class="left fl">
+					<a href="index.html">
+						<img src="./image/logo.png" alt="" />
+					</a>
+					<span>欢迎注册</span>
+				</div>
+				<div class="right fr">
+					<span>
+						已有账号？
+						<a href="login.html">去登录</a>
+					</span>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="content">
+				<div class="form">
+					<form action="">
+						<div class="input">
+							<label for="uname">用&nbsp;户&nbsp;名</label>
+							<input type="text" name="uname" id="uname" placeholder="请输入您的用户名">
+						</div>
+						<div class="default hidden" id="showUname">请输入6~16位字母或数字！！！</div>
+						<div class="input">
+							<label for="upwd">设置密码</label>
+							<input type="password" name="upwd" id="upwd" placeholder="请输入您的密码">	
+						</div>
+						<div class="default hidden" id="showPwd">请输入6~16位字母或数字！！！</div>
+						<div class="input">
+							<label for="cpwd">确认密码</label>
+							<input type="password" name="cpwd" id="cpwd" placeholder="请确认您的密码">
+						</div>
+						<div class="default hidden" id="showCpwd">请确认您的密码！！！</div>
+						<div class="input ">
+							<label for="email">电子邮箱</label>
+							<input type="text" name="email" id="email" placeholder="请输入您的邮箱">
+						</div>
+						<div class="default hidden" id="showEmail">请输入您的邮箱！！！</div>
+						<div class="input">
+							<label for="phone">联系方式</label>
+							<input type="text" name="phone" id="phone" placeholder="请输入您的联系方式">
+						</div>
+						<div class="default hidden" id="showPhone">建议使用常用手机！！！</div>
+						<div class="input">
+							<label for="regCode">验 证 码</label>
+							<input type="text" name="regCode"  id="regCode" placeholder="点击获取验证码">
+							<canvas id="c3" width="100" height="30"></canvas>
+						</div>
+						<div id="showRegCode" class="default hidden">请输入正确的验证码！！！</div>
+						<div>
+							<input type="hidden" name="uid" id="uid">
+						</div>
+						<input class="btn" type="button" value="注册">
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer id="footer"></footer>
+		<script>
+			var c3 = document.getElementById("c3");
+			var ctx = c3.getContext("2d");
+			//1:创建矩形120*30 背景颜色随机
+			ctx.fillStyle = rc(180,230);
+			ctx.fillRect(0,0,120,30);
+			//2:创建随机字符串4绘制矩形中
+			var pool = "ABCDEFGabcdefghi0123456789";
+			for(var i=0;i<4;i++){
+				var c =  pool[rn(0,pool.length)];
+				ctx.textBaseline = "top";
+				var fs = rn(20,30);
+				ctx.font = fs+"px SimHei";
+				ctx.fillStyle = rc(30,180);
+				ctx.fillText(c,30*i,0);
+			}
+			//3:创建5条干扰线
+			for(var i=0;i<5;i++){
+				ctx.beginPath();
+				ctx.strokeStyle = rc(0,230);
+				ctx.moveTo(rn(0,120),rn(0,30));
+				ctx.lineTo(rn(0,120),rn(0,30));
+				ctx.stroke();
+			}
+			//4:创建50个干扰点
+			for(var i=0;i<50;i++){
+				ctx.fillStyle = rc(0,255);
+				ctx.beginPath();
+				ctx.arc(rn(0,120),rn(0,30),1,0,2*Math.PI);
+				ctx.fill();
+			}
+			function rn(min,max){
+				var n = Math.random()*(max-min)+min;
+				return Math.floor(n);
+			}
+			function rc(min,max){
+				var r = rn(min,max);
+				var g = rn(min,max);
+				var b = rn(min,max);
+				return `rgb(${r},${g},${b})`;
+			}
+		</script>
+		<script src="./js/jquery-3.2.1.js"></script>
+		<script src="./js/reg.js"></script>
+		<script src="./js/footer.js"></script>
+		
+  
+	</body>
+</html>
