@@ -1,0 +1,130 @@
+section>div.content{
+	width:1310px;
+	margin:20px auto;
+}
+section div.content div.banner-bg{
+	height:180px;
+	margin:50px 0;
+    color: #fff;
+	background:url("../image/buy_banner.jpg") no-repeat;
+}
+section div.content div.banner-bg h3{
+	font-size:36px;
+    padding: 40px 0 20px 30px;
+}
+section div.content div.banner-bg p{
+	font-size:26px;
+    padding-left:30px; 
+}
+section div.content div.table-box table{
+	width:91%;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid #ececee;
+}
+section div.content div.table-box table input[type=checkbox]{
+	width:15px;
+	height:15px;
+}
+section div.content div.table-box table thead{
+	height:50px;
+    line-height:50px;
+    background: #f5f5f5;
+}
+section div.content div.table-box table tfoot{
+    background: #f5f5f5;
+}
+section div.content div.table-box table tbody tr td{
+	height:150px;
+}
+section div.content div.table-box table tbody tr td:nth-child(2){
+	width:300px;
+	position:relative;
+}
+section div.content div.table-box table tbody tr td .img{
+    width:98px;
+    height:98px;
+    border:1px solid #ececee;
+    position:absolute;
+    top:30px;
+    left:20px;
+}
+section div.content div.table-box table tbody tr td p{
+    position:absolute;
+    color:#333;
+}
+section div.content div.table-box table tbody tr td p.title{
+    top:35px;
+    left:140px;
+}
+section div.content div.table-box table tbody tr td p.desc{
+    top:80px;
+    left:140px;
+}
+section div.content div.table-box table tbody tr td p.desc:last-child{
+    font-size:14px;
+    color:#888;
+}
+section div.content div.table-box table tbody tr td:nth-child(5){
+	color:#ee0000;
+}
+section div.content div.table-box table tbody tr td:last-child a{
+	color:#333;
+}
+
+section div.content div.table-box table tbody tr td:nth-child(4) button{
+	width:50px;
+	height:40px;
+	font-size:18px;
+	border-radius:5px;
+	background:#fff;
+}
+section div.content div.table-box table tbody tr td:nth-child(4) span{
+	display:inline-block;
+	width:50px;
+	height:40px;
+	text-align:center;
+	font-size:18px;
+}
+section div.content div.table-box table tfoot tr td:nth-child(1){
+	text-align:left;
+	padding-left:60px;
+}
+section div.content div.table-box table tfoot tr td:nth-child(2) span.total{
+	color:#ee0000;
+	font-size:20px;
+}
+section div.content div.table-box table tfoot tr td:nth-child(3) button{
+	width:160px;
+    height:84px;
+    line-height:84px;
+    font-size:24px;
+    color:#fff;
+    text-align:center;
+    background:#ff5500;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+section div.content div.table-box table tbody td{
+	border-bottom:1px solid #ececee;
+}
+#none{
+	text-align:center;
+} 
+#none p{
+	margin:10px 0;
+}
+#none p img{
+	width:200px;
+}
+#none button{
+	width:200px;
+	height:50px;
+	background:#e24b1b;
+	color:#fff;
+	line-height:50px;
+	font-size:18px;
+	border-radius:5px;
+	margin:30px 0;
+}

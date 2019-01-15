@@ -1,0 +1,94 @@
+section>div.content{
+	width:1310px;
+	margin:20px auto;
+}
+section>div.bg1{
+	margin:20px 0;
+	width:100%;
+	height:750px;
+	background:url("../image/us_banner.jpg") no-repeat;
+	background-size:cover;
+}
+section>div.content div.intro1{
+	position:relative;
+	height:1000px;
+}
+section>div.content div.intro1 div.img-box{
+	position:absolute;
+	top:0;
+	left:0;
+	padding: 198px 0 280px 0;
+}
+section>div.content div.intro1 div.img-box img{
+	position:absolute;
+}
+section>div.content div.intro1 div.img-box img:nth-child(2){
+	top:450px;
+	left:250px;
+}
+section>div.content div.intro1 p.text{
+	position:absolute;
+	top:300px;
+	right:200px;
+	width:300px;
+	height:400px;
+	line-height:45px;
+    font-size:20px;
+    color:#888;
+}
+section>div.bg2{
+	margin:20px 0;
+	width:100%;
+	height:750px;
+	background:url("../image/us_img3.png") no-repeat;
+	background-size:cover;
+}
+section>div.bg2 div.text{
+	margin:20px auto;
+	width:1310px;
+	height:750px;
+    position:relative;
+}
+section>div.bg2 div.text p{
+    position:absolute;
+	top:200px;
+	left:200px;
+	width:300px;
+	height:400px;
+	line-height:45px;
+    font-size:20px;
+    color:#888;
+}
+section>div.server{
+	width:1310px;
+	height:690px;
+	margin:20px auto;
+}
+section>div.server h4{
+	font-size:46px;
+    color:#555;
+    padding:190px 0 100px 0;
+    text-align:center;
+}
+section>div.server ul li{
+	float:left;
+	width:33%;
+	text-align:center;
+}
+section>div.server ul li div{
+	width:204px;
+    height:204px;
+    border:2px solid #af9ce5;
+    border-radius:50%;
+    margin:0 auto;
+    text-align:center;
+}
+section>div.server ul li div img{
+	margin-top:50px;
+}
+section>div.server ul li p{
+	font-size:28px;
+    color:#af9ce5;
+    padding-top:44px;
+    text-align:center;
+}

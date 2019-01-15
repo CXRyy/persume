@@ -1,0 +1,73 @@
+header>div.content{
+	width:1310px;
+	margin:0 auto;
+}
+header div.content div.top{
+	height:30px;
+	line-height:30px;
+}
+header div.top div.left{
+	margin-left:50px;
+}
+header div.top div.right{
+	margin-right:50px;
+}
+
+header div.top div.left a{
+	color:#333;
+	font-weight:bold;
+	margin-right:20px;
+}
+header div.top div.left:last-child{
+	color:#ff5500;
+}
+header div.top div.right a:first-child{
+	color:#ff5500;
+	font-weight:bold;
+	margin-left:10px;
+}
+header div.top div.right a.cart{
+	color:#333;
+	margin-left:10px;
+}
+header div.top div.right a.cart:hover{
+	color:#b53535;
+}
+header div.top div.right a.quit{
+	color:#333;
+}
+header div.top div.right span{
+	color:#ff5500;
+}
+header div.bottom{
+	height:100px;
+	line-height:100px;
+}
+header div.bottom a{
+	margin-left:100px;
+}
+header div.bottom div.search{
+	margin-right:50px;
+}
+header div.bottom div.search input{
+	width: 436px;
+	height:38px;
+    line-height:38px;
+    border:2px solid #cfb2f6;
+    font-size:16px;
+}
+header div.bottom div.search button{
+	width: 100px;
+	height:42px;
+    line-height:42px;
+    border:none;
+    background:#cfb2f6;
+    color:#fff;
+    font-size:18px;
+    position:relative;
+    left:-5px;top:1px;
+}
+header div.bottom div.search button:hover{
+    background:#a78ec8;
+}
+

@@ -1,0 +1,336 @@
+body{
+	background:#f8f8f8;
+}
+nav div.content{
+	width:1310px;
+	height:450px;
+	margin:20px auto;
+}
+nav div.content div.top{
+	width:1310px;
+	margin:0 auto;
+}
+nav div.content div.top ul{
+	margin-left:250px;;
+	height:50px;
+	line-height:50px;
+}
+nav div.content div.top ul li{
+	float:left;
+}
+nav div.content div.top ul li a{
+	display:inline-block;
+	width:150px;
+	line-height:40px;
+	margin-bottom:5px;
+	color:#010101;
+	font-size:16px;
+	text-align:center;
+	border-radius:10px;
+}
+nav div.content div.top ul li a:hover{
+	background:#d8a4a4;
+}
+nav div.content div.bottom{
+	position:relative;
+}
+nav div.content div.bottom div.left{
+	position:absolute;
+	top:-50px;
+	z-index:6;
+}
+nav div.content div.bottom div.left h3{
+	width:180px;
+    height:50px;
+    line-height:50px;
+    font-size:18px;
+    background:#e8920a;
+    text-align:center;
+    color:#fff;
+}
+nav div.content div.bottom div.left li{
+	width:180px;
+	border-bottom:1px solid #eaeaea;
+}
+nav div.content div.bottom div.left li a{
+	display:inline-block;
+	width:180px;
+	height:49px;
+	line-height:49px;
+	font-size:18px;
+	text-align:center;
+	color:#fff;
+	background:#e78167;
+}
+nav div.content div.bottom div.left li a:hover,#content>div>a:hover{
+	color:#fff;
+	background:#da5331;
+}
+#content{
+	width:400px;
+	height:400px;
+	position:absolute;
+	bottom:0;
+	left:180px;
+	z-index:-1;
+	display:none;
+}
+#content>div{
+	width:410px;
+	height:400px;
+	position:absolute;
+	overflow:hidden;
+	display:none;
+	background:#fff;
+}
+#content>div>a{
+	margin:10px 5px;
+	display:inline-block;
+	width:150px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:#fff;
+	background:#d8a4a4;
+	border-radius:10px;
+	font-size:16px;
+}
+.block{
+	display: block !important;
+}
+nav div.content div.bottom div.right{
+	position:absolute;
+	width:1130px;
+	height:400px;
+	overflow:hidden;
+	right:0;
+}
+nav div.content div.bottom div.right>a{
+	position:absolute;
+	top:150px;
+	display:inline-block;
+	width:50px;
+	height:100px;
+	line-height:120px;
+	text-align:center;
+	z-index:5;
+	border-radius:5px;
+}
+nav div.content div.bottom div.right>a:hover{
+	background:#e8a195;
+}
+nav div.content div.bottom div.right a.prev{
+	left:10px;
+}
+nav div.content div.bottom div.right a.next{
+	right:10px;
+}
+nav div.content div.bottom div.right ul{
+	width:4800px;
+	position:absolute;
+	z-index:3;
+	transition:all .5s linear;	
+}
+nav div.content div.bottom div.right ul li{
+	float:left;	
+}
+nav div.content div.bottom div.right ul li a img{
+	width:1131px;
+	height:400px;	
+}
+section div.main{
+	background:#fff;
+}
+section div.must div.today{
+	width:1310px;
+	margin:50px auto;
+	padding:30px 0;
+}
+section div.must div.today div.content{
+	position:relative;
+}
+section div.must div.today div.content div.p-carousel{
+	position:absolute;
+	top:0;
+	left:225px;
+	width:974px;
+	height:298px;
+	border:1px solid #eaeaea;
+	border-left:none;
+	overflow:hidden;
+	z-index:0;
+}
+section div.must div.today div.content div.p-carousel div.p-list{
+	width:3200px;
+	height:298px;
+	transition:all 1s linear;
+}
+section div.must div.today div.content div.p-carousel div.p-list div.item{
+	float:left;
+	margin:25px 0 0 61px;
+}
+section div.must div.today div.content div.p-carousel div.p-list div.item p.title{
+	font-size:14px;
+	line-height:40px;
+	color:#000;
+}
+section div.must div.today div.content div.p-carousel div.p-list div.item p.price{
+	height:40px;
+	line-height:40px;
+	color:#000;
+}
+section div.must div.today div.content div.p-carousel div.p-list div.item p.price span.new{
+	color:#ee0000;
+	font-size:24px;
+}
+section div.must div.today div.content div.p-carousel div.p-list div.item p.price span.old{
+	text-decoration:line-through;
+	color:#888;
+	font-size:16px;
+}
+section div.must div.today div.content>a{
+	position:absolute;
+	width:50px;
+	height:154px;
+	line-height:154px;
+	text-align:center;
+	top:100px;
+	right:0;
+	z-index:1;
+	border-radius:10px;
+}
+section div.must div.today div.content>a:hover{
+	background:#e8a195;
+}
+section div.hot div.content{
+	width:1310px;
+	margin:0 auto;
+	text-align:center;
+	display:flex;
+	justify-content:space-between;
+}
+section div.hot div.content div.item{
+	width:380px;
+	height:500px;
+	background:#fff;
+	padding:20px;
+}
+section div.hot div.content div.item:first-child h3{
+	font-size:24px;
+	color:#333333;
+	text-align:left;
+}
+section div.hot div.content div.item:nth-child(1){
+    position:relative;
+}
+section div.hot div.content div.item:nth-child(1) div.top{
+	text-align: center;
+    height: 160px;
+    background: #f3f3f3;
+    margin-top: 136px;
+}
+section div.hot div.content div.item:nth-child(1) div.top img{
+	position:absolute;
+	top:90px;
+	left:100px;
+}
+section div.hot div.content div.item:nth-child(1) div.bottom img{
+	position:absolute;
+	bottom:70px;
+	left:165px;
+}
+section div.hot div.content div.item:nth-child(2) div.top{
+	margin:10px 0;
+}
+section div.hot div.content div.item:last-child a img{
+	margin-bottom:20px;
+}
+section div.floor{
+	padding:70px 0;
+	margin-top:100px;
+	background:#fff;
+}
+section div.floor>div{
+	width:1310px;
+	margin:50px auto;
+}
+section div.floor>div div.content{
+	height:415px;
+}
+section div.floor>div div.content div.left{
+	width:270px;
+	height:415px;
+	background:#c7b6d7;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+}
+section div.floor>div div.content div.left h4{
+	font-size:5rem;
+	color:#9175ad;
+}
+section div.floor>div div.content div.left h5{
+	font-size: 30px;
+    color: #fff;
+}
+section div.floor>div div.content div.right{
+	width:1037px;
+	height:415px;
+}
+section div.floor>div div.content div.right a img{
+	border:1px solid #e1e1e1;
+}
+section div.floor>div div.content div.right div.bottom{
+	display:flex;
+	justify-content:space-between;
+}
+section div.floor>div div.content div.right>a img{
+	width:100%;
+}
+section div.floor div.f2 div.content div.left{
+	background:#c0e2ef;
+}
+section div.floor div.f3 div.content div.left{
+	background:#f6d77d;
+}
+section div.more{
+	width:1310px;
+	margin:50px auto;
+}
+section div.more>h4{
+	text-align:center;
+	font-size:30px;
+    color:#333;
+    padding:60px 0 30px 0;
+}
+section div.more div.p-list{
+	width:1310px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+
+section div.more div.p-list div.item{
+	width:230px;
+	height:300px;
+	background:#fff;
+	margin:10px 0;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+section div.more div.p-list div.item:hover{
+	border:1px solid #ddd;
+}
+section div.more div.p-list div.item p.title{
+    text-align:left;
+    padding:5px 5px;
+    line-height:20px;
+}
+section div.more div.p-list div.item p.price{
+    font-size:18px;
+    color:#ee0000;
+    margin-top:20px;
+}

@@ -1,0 +1,69 @@
+section{
+	background:#f8f8f8;
+}
+section>div.content{
+	width:1310px;
+	margin:20px auto;
+}
+section>div.bg-img{
+	background:url("../image/tuan_img_banner.jpg") no-repeat;
+	background-size:cover;
+	height:380px;
+}
+section>div.content div.tab{
+	text-align:center;
+	margin:20px 0;
+}
+section>div.content div.tab a{
+	line-height:56px;
+    color: #666666;
+    font-size:20px;
+    display:inline-block;
+    margin-right:70px;
+    font-weight:800;
+}
+section>div.content div.tab a.active{
+	color: #693ca4;
+    border-bottom: 2px solid #cfb2f6;
+}
+section>div.content div.products{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;;
+}
+section>div.content div.products div.item{
+	width:290px;
+	height:420px;
+	margin:10px 0;
+	padding:10px;
+	background: #fff;
+}
+section>div.content div.products div.item p.title{
+	line-height:24px;
+    font-size: 16px;
+    color:#666666;
+    margin-bottom:6px;
+}
+section>div.content div.products div.item p.price{
+	display:flex;
+	justify-content:space-around;
+	margin-top:10px;
+}
+section>div.content div.products div.item p.price span.new{
+	font-size: 20px;
+}
+section>div.content div.products div.item p.price span.old{
+	font-size:16px;
+	color:#666666;
+}
+section>div.content div.products div.item p.price span.discount{
+	font-size:16px;
+	background:#cfb2f6;
+	display:inline-block;
+	width:80px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	position:relative;
+	top:-10px;
+}

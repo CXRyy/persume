@@ -1,0 +1,224 @@
+section>div.content{
+	width:1310px;
+	margin:20px auto;
+}
+section div.crumb a{
+	color:#666;
+}
+section div.crumb span{
+	color:#666;
+	margin:0 10px;
+}
+section div.details{
+	width:1310px;
+	margin:20px auto;
+	height:450px;
+}
+section div.details div.left{
+	width:450px;
+	height:500px;
+}
+section div.details div.right{
+	width:850px;
+	height:500px;
+}
+section div.details div.right div.title{
+	height:50px;
+	line-height:40px;
+	padding:10px 25px;	
+}
+section div.details div.right div.title span{
+	color:#ff5500;
+	font-size:18px;	
+}
+section div.details div.right div.title span a{
+	color:#000000;
+	margin-left:5px;	
+}
+section div.details div.right div.price{
+    height:135px;
+    background:#f5f5f5;
+    padding-top:25px;
+    margin-bottom:26px;
+}
+section div.details div.right div.price p.reference,section div.details div.right div.price p.activity,section div.details div.right div.price p.address{
+    line-height:40px;
+    padding-left:25px;
+    color:#888888;
+}
+section div.details div.right div.price p.activity span{
+	font-size:30px;
+	color:#ee0000;
+	font-weight:bold;
+}
+
+section div.details div.right div.color,section div.details div.right div.size{
+	height:50px;
+	padding-left:25px;
+}
+section div.details div.right div.color p,section div.details div.right div.size p{
+	color:#888888;
+}
+section div.details div.right div.color a{
+	border:1px solid #e0e0e0;
+	margin-top:-4px;
+	margin-right:5px;
+	display:inline-block;
+	padding:5px 10px;
+	background:#e6e3dd;
+	color:#000;
+}
+section div.details div.right div.color a:hover,section div.details div.right div.size a:hover{
+	background:#e2682d;
+	color:#fff;
+}
+.colorActive{
+	background:#e2682d !important;
+	color:#fff !important;
+}
+section div.details div.right div.size a{
+	margin-top:-4px;
+	margin-right:5px;
+	display:inline-block;
+	padding:5px 10px;
+	background:#e6e3dd;
+	color:#000;
+}
+section div.details div.right div.count{
+	height:50px;
+	padding-left:25px;
+	color:#888888;
+}
+section div.details div.right div.count p{
+	color:#888888;
+}
+section div.details div.right div.count button{
+	font-size:20px;
+	width:50px;
+	height:40px;
+}
+section div.details div.right div.count span{
+	display:inline-block;
+	font-size:20px;
+	text-align:center;
+	width:50px;
+	height:40px;
+}
+section div.details div.right div.choose{
+	margin-left:25px;
+	height:50px;
+}
+section div.details div.right div.choose button{
+	border:1px solid #ff5500;
+	margin-right:100px;
+    color:#ff5500;
+    width:116px;
+    height:40px;
+    line-height:40px;
+    background:#fff;
+}
+section div.details div.right div.choose button:hover{
+	background:#ff5500;
+	color:#fff;
+}
+section div.suggest,section div.f1,section div.f2{
+    margin:50px 0;
+}
+section div.suggest .content{
+	height:395px;
+    border:1px solid #dddddd;
+    overflow:hidden;
+    margin-top:15px;
+}
+section div.suggest>h2,section div.f1>h2,section div.f2>h2,section div.f3>h2{
+    color:#923d11;
+    background:#e5e3e0;
+    line-height:50px;
+}
+section div.suggest .content ul{
+    width:200%;
+    height:350px;
+    margin-top:15px;
+}
+section div.suggest .content ul li{
+    float:left;
+    margin:15px 25px;
+    color:#333;
+}
+section div.suggest .content ul li p{
+    margin:15px 0;
+    font-weight:bold;
+}
+section div.suggest .content ul li p span{
+    font-size:18px;
+    margin-left:55px;
+    color:#ee0000;
+}
+section div.f1 img{
+	width:100%;
+}
+.fn{
+    width:140px;
+    position:fixed;
+    right:15px;
+    top:415px;
+}
+.fn ul li a{
+    width:130px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    display:inline-block;
+    color:#fff;
+    font-size:20px;
+    background:#ad4343;
+    border:1px solid #dddddd;
+    margin:5px 0;
+}
+section div.f2>div.content,section div.f3>div.content{
+	margin-top:30px;
+}
+section div.f2>div.content>textarea{
+	width:100%;
+	height:50px;
+	border:1px solid  #dddddd;
+	font-size:18px;
+	color:#333;
+}
+section div.f2>div.content>button.postComment,section div.f2>div.content button.getMore{
+	width:100px;
+	height:50px;
+	font-size:18px;
+	color:#fff;
+	background:#6e5a58;
+}
+section div.f2>div.content div.cmt-list{
+	margin-top:30px;
+}
+section div.f2>div.content div.cmt-item{
+	border:1px solid  #dddddd;
+	padding:20px;
+	margin:10px 0;
+}
+section div.f2>div.content div.cmt-info{
+	font-size:18px;
+	color:#333;
+}
+section div.f2>div.content div.user-info{
+	height:50px;
+}
+section div.f2>div.content div.cmt-body{
+	padding:0 20px;
+}
+section div.f3>div.content h3{
+	color:#666;
+	margin:10px 0;
+}
+section div.f3>div.content p{
+	font-size:18px;
+	color:#000;
+	line-height:30px;
+	text-indent:5px;
+}
+
+

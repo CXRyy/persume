@@ -1,0 +1,133 @@
+section{
+    background:#f8f8f8;
+}
+section>div.content{
+    width:1310px;
+    height:2400px;
+    margin:20px auto 0;
+    position:relative;
+}
+section div.content div.left-nav{
+    width:150px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+section div.content div.left-nav h3.title{
+	color:#fff;
+	text-align:center;
+    font-size:20px;
+    background:#333333;
+	line-height:50px;
+}
+section div.content div.left-nav dl{
+    height:40px;
+    overflow:hidden;
+    transition:all .5s linear;
+}
+.h{
+    height:200px !important;
+}
+section div.content div.left-nav dl dt{
+	font-size:18px;
+	line-height:40px;
+	text-align:left;
+	padding-left:10px;
+    color:#333;
+    cursor: pointer;
+}
+section div.content div.left-nav dl dd a{
+    display:inline-block;
+    height:30px;
+    line-height:30px;
+    color:#888888;
+    font-size:16px;
+    padding-left:30px;
+}
+section div.content div.right{
+    width:1100px;
+    height:96%;
+    position:absolute;
+    right:0;
+    top:0;
+}
+section div.content div.right div.sort{
+    padding:10px 0;
+}
+section div.content div.right div.sort a{
+    display:inline-block;
+    width:100px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    border:1px solid #eaeaea;
+    background:#fff;
+    color:#333;
+    margin-right:10px;
+}
+section div.content div.right div.count{
+    font-size:18px;
+    padding:10px 0;
+}
+section div.content div.right div.products div.content{
+    display:flex;
+    justify-content:start;
+    flex-wrap:wrap;
+}
+section div.content div.right div.products div.content div.item{
+    width:280px;
+    height:366px;
+    border:1px solid #eaeaea;
+    background:#fff;
+    margin:0 47px 60px 0;
+}
+section div.content div.right div.products div.content div.item div.img{
+    border-bottom:1px solid #eaeaea;
+	margin-bottom:10px;
+}
+section div.content div.right div.products div.content div.item div.text{
+   	margin:0 10px;
+}
+section div.content div.right div.products div.content div.item div.text p.title{
+    color:#333333;
+    font-size:16px;
+    margin-bottom:14px;
+}
+section div.content div.right div.products div.content div.item div.text p.price span.pri{
+    color:#ee0000;
+}
+section div.content div.right div.products div.content div.item div.text p.price span.nub{
+    color:#999999;
+}
+section div.page{
+    position:absolute;
+    bottom:0;
+    left:30%;
+}
+section div.page ul li{
+    float:left;
+}
+section div.page ul li a{
+    display:inline-block;
+    width:60px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    border:1px solid #ddd;
+    border-radius:2px;
+    color:#333;
+}
+section div.page ul li:first-child a,section div.page ul li:last-child a{
+    width:80px;
+}
+section div.page ul li:not(:first-child):not(:last-child) a:hover{
+    background:#009688;
+}
+.active{
+    background:#009688 !important;
+}
+.disabled{
+    opacity:0.5 !important;
+  }
+
+
