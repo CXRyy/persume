@@ -1,0 +1,247 @@
+#banner{
+    background:url("../images/bnr.jpg") no-repeat;
+    background-size:cover;
+    min-height:700px;
+}
+#banner div.content{
+    width:20%;
+    max-height:550px;
+    background:#000;
+    overflow:hidden;
+}
+#banner div.content div.top a span{
+    font-size:3rem;
+    font-weight:bold;
+}
+#banner div.content div.center ul li a{
+    font-size:1.5rem;
+}
+#banner div.content div.center ul li a:hover{
+    color:#00eac4 !important;
+}
+#banner div.content div.bottom a span{
+    min-width:25px;
+    min-height:25px;
+}
+#banner div.content div.bottom a:first-child span{
+    background:url("../images/social.png") 5px 0 no-repeat;
+}
+#banner div.content div.bottom a:nth-child(2) span{
+    background:url("../images/social.png") -15px 0 no-repeat;
+}
+#banner div.content div.bottom a:last-child span{
+    background:url("../images/social.png") -40px 0 no-repeat;
+}
+section>div.row>div{
+    position:relative;
+}
+section>div.row>div img{
+    width:100%;
+    height:100%;
+}
+section>div.row>div>div.intro{
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(222,222,222,0.3);
+}
+section>div.row>div>div.intro>div{
+    width:80%;
+    height:80%;
+    margin:5% auto;
+    border:1px solid #fff;
+    text-align:center;
+    vertical-align:middle;
+}
+section>div.row>div>div.intro>div h3{
+    margin-top:11%;
+}
+section>div.row>div>div.intro>div p{
+    font-size:1.5rem;
+}
+section div.welcome{
+    margin-top:10%;
+}
+section div.welcome>h2.title{
+    font-size:3rem;
+    color:#00eacf;
+}
+section div.welcome>p{
+    font-size:1.5rem;
+}
+section div.welcome div.item{
+    overflow:hidden;
+    width:30%;
+}
+section div.welcome img{
+    width:100%;
+    height:100%;
+    transition:all .5s linear;
+}
+section div.welcome img:hover{
+    transform:scale(1.1);
+}
+section div.fashionTop img{
+    width:100%;
+    height:100%;
+}
+section div.fashionTop div.content{
+    margin-top:10%;
+}
+section div.fashionTop div.content h2{
+    color:#00eacf;
+}
+section div.fashionTop div.content p{
+    font-size:1.5rem;
+}
+section div.profile-top{
+    margin-top:10%;
+}
+section div.profile-top>div>div{
+    overflow:hidden;
+    position:relative;
+}
+section div.profile-top img{
+    width:100%;
+    height:100%;
+    transition:all .5s linear;
+}
+section div.profile-top img:hover{
+    transform:scale(1.1);
+}
+section div.profile-top div.active1{
+    position:absolute;
+    bottom:0px;
+    right:-65px;
+    min-width:200px;
+    min-height:800px;
+    transform:rotate(315deg);
+    background:rgba(0, 234, 207, 0.34);
+    transition:all .5s linear;
+
+}
+section div.profile-top div.active1:hover{
+    right:400px;
+    bottom:-500px;
+}
+section div.advantages{
+    margin-top:10%;
+}
+section div.advantages>div>div{
+    border-right:1px solid #999;
+}
+section div.advantages>h2{
+    color:#00eacf;
+}
+section div.advantages div.content{
+    position:relative;
+}
+section div.advantages div.content h5{
+    color:#00eacf;
+}
+section div.advantages div.content>span{
+    position:absolute;
+    right:-17px;
+    top:40%;
+    background: url("../images/s-arw.png") no-repeat;
+    width:22px;
+    height:29px;
+}
+footer{
+    margin-top:10%;
+    background:url("../images/f-banner.jpg") no-repeat;
+    background-size:cover;
+    min-height:485px;
+}
+footer img{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*ÖÐÆÁÄ»pad*/
+@media screen and (min-width:768px) and (max-width:991px){
+    #banner{
+        min-height:400px;
+    }
+    #banner div.content{
+        width:30%;
+        max-height:350px;
+    }
+    #banner div.content div.top a span{
+        font-size:2rem;
+    }
+    section>div.container>div.welcome>h2.title{
+        font-size:2.5rem;
+    }
+    section>div.container>div.welcome>p{
+        font-size:1rem;
+    }
+    section div.welcome div.item{
+        width:33%;
+    }
+    section div.fashionTop div.content div.button{
+        text-align:center;
+    }
+    section div.fashionTop div.content p{
+        font-size:1rem;
+    }
+    footer>div:last-child p{
+        margin-top:5%;
+    }
+}
+
+
+
+
+
+
+
+
+/*Ð¡ÆÁÄ»phone*/
+@media screen and (max-width:767px){
+    #banner{
+        min-height:300px;
+    }
+    #banner div.content{
+        width:40%;
+        max-height:250px
+    }
+    #banner div.content div.top a span{
+        font-size:2rem;
+    }
+    section>div.container>div.welcome>h2.title{
+        font-size:2.5rem;
+    }
+    section>div.container>div.welcome>p{
+        font-size:1rem;
+    }
+    section div.welcome div.item{
+        width:100%;
+    }
+    section div.fashionTop div.content div.button,section div.advantages div.content div.button{
+        text-align:center;
+    }
+    footer>div:last-child p{
+        margin-top:5%;
+    }
+}
+
+
+
+
+
+
+
+
